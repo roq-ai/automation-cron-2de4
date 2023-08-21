@@ -1,0 +1,1532 @@
+[
+  {
+    "cron_job": [
+      {
+        "id": "13ba3627-d329-4f22-a0b0-84798c0c5673",
+        "task_name": "Data Backup",
+        "task_frequency": "Daily",
+        "timing": "2023-08-21T03:00:31.936Z",
+        "parameters": "param1=value1",
+        "created_at": "2023-08-21T01:05:27.622Z",
+        "updated_at": "2023-08-21T08:57:21.514Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6f982e0d-3ca5-40ba-8a26-b9396344f97f",
+        "task_name": "Data Synchronization",
+        "task_frequency": "Weekly",
+        "timing": "2023-08-20T11:56:11.140Z",
+        "parameters": "param2=value2",
+        "created_at": "2023-08-20T15:47:51.548Z",
+        "updated_at": "2023-08-21T01:23:01.692Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "93f00156-99ac-4112-8529-f389e7b27bc7",
+        "task_name": "Report Generation",
+        "task_frequency": "Monthly",
+        "timing": "2023-08-21T04:55:32.787Z",
+        "parameters": "param3=value3",
+        "created_at": "2023-08-20T18:29:45.226Z",
+        "updated_at": "2023-08-20T15:14:12.376Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2ba60394-93c1-4d0e-a224-56c6ad9f844b",
+        "task_name": "System Maintenance",
+        "task_frequency": "Quarterly",
+        "timing": "2023-08-20T12:22:19.590Z",
+        "parameters": "param4=value4",
+        "created_at": "2023-08-20T13:15:35.437Z",
+        "updated_at": "2023-08-20T21:31:47.870Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a84af989-97e4-4fc8-80ac-6159bd892e06",
+        "task_name": "Data Cleanup",
+        "task_frequency": "Yearly",
+        "timing": "2023-08-21T00:12:26.751Z",
+        "parameters": "param5=value5",
+        "created_at": "2023-08-21T08:41:46.992Z",
+        "updated_at": "2023-08-20T16:55:09.459Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "administrator": [
+      {
+        "id": "54dec312-4e50-44a4-b697-276edb145dc5",
+        "username": "admin1",
+        "password": "P@ssw0rd1",
+        "email": "admin1@example.com",
+        "last_login": "2023-08-20T14:36:13.594Z",
+        "created_at": "2023-08-21T05:02:58.444Z",
+        "updated_at": "2023-08-21T08:06:39.957Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6983297b-4d44-4099-8105-98fbb277813b",
+        "username": "admin2",
+        "password": "SecurePassword2",
+        "email": "admin2@example.com",
+        "last_login": "2023-08-21T07:22:42.134Z",
+        "created_at": "2023-08-21T10:14:24.163Z",
+        "updated_at": "2023-08-20T20:36:14.760Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5a79d59c-ba7b-4600-844c-82330ffd1e58",
+        "username": "admin3",
+        "password": "StrongPwd3",
+        "email": "admin3@example.com",
+        "last_login": "2023-08-21T05:23:11.601Z",
+        "created_at": "2023-08-20T18:09:30.283Z",
+        "updated_at": "2023-08-21T01:37:04.186Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e91be805-da0a-4edb-8875-f3c902c88cc8",
+        "username": "admin4",
+        "password": "Admin@1234",
+        "email": "admin4@example.com",
+        "last_login": "2023-08-21T06:27:22.874Z",
+        "created_at": "2023-08-21T04:34:32.200Z",
+        "updated_at": "2023-08-21T01:37:31.207Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "cd7d1f59-eeb2-4c8d-9371-842017d42c22",
+        "username": "admin5",
+        "password": "Password!",
+        "email": "admin5@example.com",
+        "last_login": "2023-08-20T23:24:18.124Z",
+        "created_at": "2023-08-20T15:58:22.999Z",
+        "updated_at": "2023-08-21T08:50:08.056Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e43499a0-9f0b-469c-b35d-a9aa76f1046e",
+        "email": "Braxton29@gmail.com",
+        "firstName": "Annie",
+        "lastName": "Hudson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1189.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "dad51823-211b-4a88-9c88-3164a2bf5d75",
+        "email": "Nyah_Hickle13@hotmail.com",
+        "firstName": "Laury",
+        "lastName": "Pagac",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3875207",
+        "tenantId": null
+      },
+      {
+        "reference": "bdc3525b-a0da-4c4a-9dbd-974bfdca0067",
+        "email": "Onie.Lowe26@hotmail.com",
+        "firstName": "Larry",
+        "lastName": "Casper",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/475.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "11a436fb-a1bd-4bb9-bb13-b163f001b7d7",
+        "email": "Darrin.Johnson@yahoo.com",
+        "firstName": "Jack",
+        "lastName": "Breitenberg",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45427570",
+        "tenantId": null
+      },
+      {
+        "reference": "475159d3-4fa6-400b-b9f5-a82e693e896e",
+        "email": "Winston.Upton@gmail.com",
+        "firstName": "Helena",
+        "lastName": "Bauch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79258390",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "cron_job": [
+      {
+        "id": "482b144d-ca73-4545-b5ab-8752f74a8ae6",
+        "task_name": "Data Backup",
+        "task_frequency": "Daily",
+        "timing": "2023-08-20T10:19:37.045Z",
+        "parameters": "--exclude=logs",
+        "created_at": "2023-08-20T22:57:45.992Z",
+        "updated_at": "2023-08-21T05:56:03.698Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8acd9023-ad99-4be9-b9af-5cc78148be0d",
+        "task_name": "Email Notifications",
+        "task_frequency": "Weekly",
+        "timing": "2023-08-21T09:25:28.447Z",
+        "parameters": "--send-to=admin@example.com",
+        "created_at": "2023-08-20T22:35:23.108Z",
+        "updated_at": "2023-08-20T14:22:53.421Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3cc12bb2-ff96-4a73-ab6c-4ec963544f45",
+        "task_name": "Database Cleanup",
+        "task_frequency": "Monthly",
+        "timing": "2023-08-21T01:44:11.084Z",
+        "parameters": "--cleanup=true",
+        "created_at": "2023-08-20T11:51:55.690Z",
+        "updated_at": "2023-08-20T20:44:58.768Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "43e2bc51-b23b-4f70-b3e5-067392b52ed7",
+        "task_name": "Report Generation",
+        "task_frequency": "Quarterly",
+        "timing": "2023-08-20T19:59:22.745Z",
+        "parameters": "--format=pdf",
+        "created_at": "2023-08-20T14:05:10.961Z",
+        "updated_at": "2023-08-21T07:11:05.244Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c6186f60-afa5-4ab9-bee2-9ed762fbed7b",
+        "task_name": "System Updates",
+        "task_frequency": "Yearly",
+        "timing": "2023-08-20T16:01:05.763Z",
+        "parameters": "--force-update",
+        "created_at": "2023-08-21T05:58:16.896Z",
+        "updated_at": "2023-08-20T12:05:15.767Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "administrator": [
+      {
+        "id": "47d7b469-e21f-44c6-a47f-7982ebcb9866",
+        "username": "admin1",
+        "password": "P@ssw0rd1",
+        "email": "admin1@example.com",
+        "last_login": "2023-08-20T11:26:03.265Z",
+        "created_at": "2023-08-20T13:01:47.646Z",
+        "updated_at": "2023-08-20T12:46:02.063Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f94022c1-f3b8-41f2-97f7-4155d6caa167",
+        "username": "admin2",
+        "password": "SecurePassword2",
+        "email": "admin2@example.com",
+        "last_login": "2023-08-20T15:38:01.598Z",
+        "created_at": "2023-08-20T17:35:56.731Z",
+        "updated_at": "2023-08-21T06:40:04.885Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3a5221c9-37ad-4130-b51f-50d751bd6619",
+        "username": "admin3",
+        "password": "Admin@123",
+        "email": "admin3@example.com",
+        "last_login": "2023-08-20T14:07:01.325Z",
+        "created_at": "2023-08-20T15:45:48.218Z",
+        "updated_at": "2023-08-21T04:26:53.141Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "36194650-2722-4eec-a71a-30aefadee36d",
+        "username": "admin4",
+        "password": "StrongP@ss",
+        "email": "admin4@example.com",
+        "last_login": "2023-08-20T21:05:53.681Z",
+        "created_at": "2023-08-20T16:02:46.158Z",
+        "updated_at": "2023-08-20T19:47:52.420Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9f24b20f-8f92-49d3-bdb7-68ace9577498",
+        "username": "admin5",
+        "password": "Password!",
+        "email": "admin5@example.com",
+        "last_login": "2023-08-20T16:42:59.495Z",
+        "created_at": "2023-08-21T09:14:08.754Z",
+        "updated_at": "2023-08-20T22:43:35.966Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0e339cda-732c-4bfd-8769-2fe9956e2db8",
+        "email": "Jeremy_Beatty21@yahoo.com",
+        "firstName": "Mireille",
+        "lastName": "Becker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/562.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2c4d2554-1944-4a79-b1d6-35947c1ebe1b",
+        "email": "Jarrod_Murray@yahoo.com",
+        "firstName": "Johan",
+        "lastName": "Harris",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/311.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7bc606bf-82c6-44d7-a9b2-ddf36753e007",
+        "email": "Braden.Baumbach@gmail.com",
+        "firstName": "Morgan",
+        "lastName": "Effertz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25045332",
+        "tenantId": null
+      },
+      {
+        "reference": "2f509ae6-cb55-4f9a-99cc-18325508e31b",
+        "email": "Lavonne_Botsford@yahoo.com",
+        "firstName": "Lelia",
+        "lastName": "Ullrich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/919.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e9f8ccf7-fa5c-41de-8082-191972471f8a",
+        "email": "Allan_Heathcote84@yahoo.com",
+        "firstName": "Francis",
+        "lastName": "Schuppe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52368694",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "cron_job": [
+      {
+        "id": "edf59a10-e1e0-4c02-82c0-7f91718465a2",
+        "task_name": "Backup Database",
+        "task_frequency": "Daily",
+        "timing": "2023-08-21T09:39:55.354Z",
+        "parameters": "--verbose",
+        "created_at": "2023-08-20T15:18:43.387Z",
+        "updated_at": "2023-08-21T05:03:53.632Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2c8a4ae9-1a29-4a5b-bd7e-5e06dd9eec92",
+        "task_name": "Generate Reports",
+        "task_frequency": "Weekly",
+        "timing": "2023-08-20T13:56:31.620Z",
+        "parameters": "--exclude=logs",
+        "created_at": "2023-08-20T15:19:22.142Z",
+        "updated_at": "2023-08-21T00:15:02.226Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2dbb6e91-9b57-4240-a76a-401a6d77ecee",
+        "task_name": "Send Email Notifications",
+        "task_frequency": "Monthly",
+        "timing": "2023-08-20T13:16:01.632Z",
+        "parameters": "--output=/path/to/file",
+        "created_at": "2023-08-20T14:14:40.344Z",
+        "updated_at": "2023-08-20T15:40:00.621Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9df58b8a-69f3-4497-b4a2-2420b6e5f6e6",
+        "task_name": "Update Inventory",
+        "task_frequency": "Quarterly",
+        "timing": "2023-08-20T22:36:09.545Z",
+        "parameters": "--limit=100",
+        "created_at": "2023-08-20T12:28:38.045Z",
+        "updated_at": "2023-08-20T14:54:26.177Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "900cfac8-4a65-451a-881a-9b2100847004",
+        "task_name": "Clean Temporary Files",
+        "task_frequency": "Yearly",
+        "timing": "2023-08-21T03:53:49.934Z",
+        "parameters": "--force",
+        "created_at": "2023-08-21T00:15:30.833Z",
+        "updated_at": "2023-08-20T18:09:11.226Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "administrator": [
+      {
+        "id": "0573bf2e-a4ce-45d7-b31b-e080f6ec8871",
+        "username": "admin",
+        "password": "P@ssw0rd",
+        "email": "admin@example.com",
+        "last_login": "2023-08-21T10:04:17.767Z",
+        "created_at": "2023-08-20T19:55:03.185Z",
+        "updated_at": "2023-08-21T06:28:24.240Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b3de7741-8a19-4936-a7e5-f0dc227fef17",
+        "username": "superuser",
+        "password": "SecurePassword1",
+        "email": "superuser@example.com",
+        "last_login": "2023-08-21T07:59:08.415Z",
+        "created_at": "2023-08-21T02:10:01.776Z",
+        "updated_at": "2023-08-20T11:51:31.659Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a84f5560-8c04-4594-95ae-120d7f85980c",
+        "username": "root",
+        "password": "Admin@123",
+        "email": "root@example.com",
+        "last_login": "2023-08-20T18:49:55.467Z",
+        "created_at": "2023-08-20T23:22:20.471Z",
+        "updated_at": "2023-08-20T22:47:56.948Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "277f7cec-5d8a-401f-8124-40078b559d45",
+        "username": "admin123",
+        "password": "Password2022!",
+        "email": "admin123@example.com",
+        "last_login": "2023-08-21T08:30:49.669Z",
+        "created_at": "2023-08-21T02:48:27.203Z",
+        "updated_at": "2023-08-21T01:08:12.337Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "452596f3-5b2e-4132-8ad8-510bb313fa04",
+        "username": "admin2022",
+        "password": "StrongPwd#",
+        "email": "admin2022@example.com",
+        "last_login": "2023-08-21T03:48:34.226Z",
+        "created_at": "2023-08-20T10:36:39.885Z",
+        "updated_at": "2023-08-20T18:16:33.970Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f9ea68f7-348d-4d47-a286-57e9aba6984a",
+        "email": "Idella1@hotmail.com",
+        "firstName": "Paula",
+        "lastName": "Skiles",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/187.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "dadf9942-c732-43c0-8739-6d9f6f5d5065",
+        "email": "Victoria_Gusikowski@yahoo.com",
+        "firstName": "Willie",
+        "lastName": "Effertz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/695.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ea713c0a-32c6-497a-a009-6ea030000de4",
+        "email": "Kraig.Hoppe23@gmail.com",
+        "firstName": "Eveline",
+        "lastName": "Ullrich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/436.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "66062491-94c8-47ae-8efb-4e366a946d6a",
+        "email": "Albina85@yahoo.com",
+        "firstName": "Dion",
+        "lastName": "Brekke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/191.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4a51340d-43b8-42c2-a51f-dda683f64afb",
+        "email": "Kayley_Ward91@yahoo.com",
+        "firstName": "Irving",
+        "lastName": "Dicki",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37645241",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "cron_job": [
+      {
+        "id": "9c61142f-eeb4-48e8-b5a7-483bdd6c4ae1",
+        "task_name": "Backup Data",
+        "task_frequency": "Daily",
+        "timing": "2023-08-21T01:06:02.347Z",
+        "parameters": "--force",
+        "created_at": "2023-08-20T14:44:31.599Z",
+        "updated_at": "2023-08-20T15:38:32.641Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0e9dd1e4-bf85-4f8e-b6c4-16f046fd82e1",
+        "task_name": "Send Email Notifications",
+        "task_frequency": "Weekly",
+        "timing": "2023-08-20T23:58:33.013Z",
+        "parameters": "--verbose",
+        "created_at": "2023-08-21T08:48:38.829Z",
+        "updated_at": "2023-08-20T22:02:04.823Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d1a3dc67-af14-4dd6-a0ba-948ae898202c",
+        "task_name": "Generate Reports",
+        "task_frequency": "Monthly",
+        "timing": "2023-08-20T20:17:12.910Z",
+        "parameters": "--exclude=logs",
+        "created_at": "2023-08-20T22:16:59.143Z",
+        "updated_at": "2023-08-20T12:25:54.202Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "203f9353-86d8-49e9-9c74-703d0448c992",
+        "task_name": "Clean Database",
+        "task_frequency": "Quarterly",
+        "timing": "2023-08-20T21:20:43.035Z",
+        "parameters": "--max-rows=1000",
+        "created_at": "2023-08-20T13:36:19.593Z",
+        "updated_at": "2023-08-20T22:48:21.323Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e1d7b0cc-03b1-4277-8ba0-fa932af53c79",
+        "task_name": "Update System",
+        "task_frequency": "Yearly",
+        "timing": "2023-08-20T20:03:39.904Z",
+        "parameters": "--output=csv",
+        "created_at": "2023-08-21T06:26:47.449Z",
+        "updated_at": "2023-08-21T09:34:22.495Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "administrator": [
+      {
+        "id": "4e0f4600-cb1f-4459-8f19-4fc7a656312b",
+        "username": "admin",
+        "password": "P@ssw0rd",
+        "email": "admin@example.com",
+        "last_login": "2023-08-21T01:03:58.446Z",
+        "created_at": "2023-08-20T12:50:06.731Z",
+        "updated_at": "2023-08-20T19:55:19.137Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c78e1c2e-5477-4c19-bbf6-dbd1803869c3",
+        "username": "superuser",
+        "password": "SecurePassword1",
+        "email": "superuser@example.com",
+        "last_login": "2023-08-21T07:11:58.635Z",
+        "created_at": "2023-08-20T10:41:01.943Z",
+        "updated_at": "2023-08-21T05:51:16.653Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d1483219-451f-4e41-9d16-eb99f2b0af09",
+        "username": "admin123",
+        "password": "Admin@123",
+        "email": "admin123@example.com",
+        "last_login": "2023-08-21T01:31:10.764Z",
+        "created_at": "2023-08-20T19:36:37.435Z",
+        "updated_at": "2023-08-20T17:23:09.777Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b52396fb-8d83-4fa8-b210-2a1ce462f09f",
+        "username": "admin2021",
+        "password": "Password2021",
+        "email": "admin2021@example.com",
+        "last_login": "2023-08-20T11:52:28.096Z",
+        "created_at": "2023-08-20T12:03:16.434Z",
+        "updated_at": "2023-08-20T15:03:17.476Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3e802df5-dcb0-41c4-85b2-f651a173eca4",
+        "username": "sysadmin",
+        "password": "StrongPwd!",
+        "email": "sysadmin@example.com",
+        "last_login": "2023-08-21T07:44:31.585Z",
+        "created_at": "2023-08-20T16:38:49.969Z",
+        "updated_at": "2023-08-20T19:16:27.248Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b923d70a-c769-46ef-ba8b-38cfd340aff7",
+        "email": "Toy.Koch57@gmail.com",
+        "firstName": "Bridgette",
+        "lastName": "Vandervort",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/951.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "141e0096-c08e-4b3e-8d7b-b1c40d618eab",
+        "email": "Gail_Huels88@yahoo.com",
+        "firstName": "Retha",
+        "lastName": "Schiller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/589.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b432411e-8acc-41a8-9d44-b6ed28382cb6",
+        "email": "Richmond_Douglas@yahoo.com",
+        "firstName": "Kelley",
+        "lastName": "Torp",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1249.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "93af99a8-6c7c-4d0b-9132-3a7acc5e80c2",
+        "email": "Sarah_Schultz@gmail.com",
+        "firstName": "Tanya",
+        "lastName": "Kuphal",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82413143",
+        "tenantId": null
+      },
+      {
+        "reference": "f2d02136-f251-4264-a3a3-954a662b5fbb",
+        "email": "Zane73@hotmail.com",
+        "firstName": "Jennifer",
+        "lastName": "Medhurst",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/719.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "cron_job": [
+      {
+        "id": "1236e8d2-71d0-433f-b95e-a2e2b6ae3ce8",
+        "task_name": "data_import",
+        "task_frequency": "daily",
+        "timing": "2023-08-21T00:02:17.513Z",
+        "parameters": "--force",
+        "created_at": "2023-08-21T06:25:11.634Z",
+        "updated_at": "2023-08-21T02:08:36.470Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "dc1643cd-ab54-4c90-9de7-55a3ec1a183e",
+        "task_name": "report_generation",
+        "task_frequency": "weekly",
+        "timing": "2023-08-20T16:05:32.016Z",
+        "parameters": "--exclude=logs",
+        "created_at": "2023-08-20T18:22:55.017Z",
+        "updated_at": "2023-08-20T11:08:12.687Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "12ac809d-a6a6-4d5c-91da-06d41f23cc47",
+        "task_name": "backup",
+        "task_frequency": "monthly",
+        "timing": "2023-08-20T21:17:04.868Z",
+        "parameters": "--date=2021-10-01",
+        "created_at": "2023-08-21T08:50:19.347Z",
+        "updated_at": "2023-08-20T17:23:33.995Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "bfb4bfb3-bef5-4dee-809a-987bf1ffa65e",
+        "task_name": "data_cleaning",
+        "task_frequency": "hourly",
+        "timing": "2023-08-21T02:08:44.284Z",
+        "parameters": "--verbose",
+        "created_at": "2023-08-20T10:34:49.911Z",
+        "updated_at": "2023-08-20T11:31:29.342Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d9c427ca-5036-4ed2-a8c6-244b22d9b5dd",
+        "task_name": "notification_emails",
+        "task_frequency": "quarterly",
+        "timing": "2023-08-20T23:10:28.666Z",
+        "parameters": "--output=file.csv",
+        "created_at": "2023-08-21T08:23:32.664Z",
+        "updated_at": "2023-08-20T10:31:50.854Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "administrator": [
+      {
+        "id": "6d843e2c-d959-4fd4-b3da-2344de858848",
+        "username": "admin",
+        "password": "P@ssw0rd",
+        "email": "admin@example.com",
+        "last_login": "2023-08-21T07:12:22.355Z",
+        "created_at": "2023-08-21T06:47:18.856Z",
+        "updated_at": "2023-08-21T08:00:07.655Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "33fdcd19-caeb-4e7e-99c7-e8d702649ac5",
+        "username": "superuser",
+        "password": "SecurePass123",
+        "email": "superuser@example.com",
+        "last_login": "2023-08-20T12:47:55.737Z",
+        "created_at": "2023-08-20T21:29:07.396Z",
+        "updated_at": "2023-08-20T18:09:48.913Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a18e24e4-c6e3-41bc-acab-ab26859475f6",
+        "username": "admin123",
+        "password": "Admin@123",
+        "email": "admin123@example.com",
+        "last_login": "2023-08-21T08:05:31.925Z",
+        "created_at": "2023-08-20T21:58:08.979Z",
+        "updated_at": "2023-08-20T11:19:03.549Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3b64f062-a2f3-4061-b23b-4c5cd4b7fdd6",
+        "username": "sysadmin",
+        "password": "StrongPassword",
+        "email": "sysadmin@example.com",
+        "last_login": "2023-08-21T05:22:34.708Z",
+        "created_at": "2023-08-21T06:55:11.610Z",
+        "updated_at": "2023-08-21T07:55:41.103Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "bebcc911-7213-458f-b6b4-2e9c30ad8d11",
+        "username": "root",
+        "password": "Password123!",
+        "email": "root@example.com",
+        "last_login": "2023-08-21T10:02:24.830Z",
+        "created_at": "2023-08-20T16:07:21.839Z",
+        "updated_at": "2023-08-20T19:48:01.770Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a61fcd9e-1126-45ea-b7fc-1ac1923bc709",
+        "email": "Ellsworth.Huel@gmail.com",
+        "firstName": "Vincenza",
+        "lastName": "Koepp",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40002391",
+        "tenantId": null
+      },
+      {
+        "reference": "a9c74af4-1c34-468a-82eb-d339e4016034",
+        "email": "Morris76@yahoo.com",
+        "firstName": "Taryn",
+        "lastName": "Franecki",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/592.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1761cd95-8760-4965-89bd-134c9ea6cbc2",
+        "email": "Heloise.Gislason58@yahoo.com",
+        "firstName": "Kennedi",
+        "lastName": "Veum",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/116.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d028263b-5df2-452a-8a1a-524af77d775c",
+        "email": "Tyson51@yahoo.com",
+        "firstName": "Haskell",
+        "lastName": "Mitchell",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46636278",
+        "tenantId": null
+      },
+      {
+        "reference": "43e307cd-b1a7-4a70-a9da-8d542f2c9b4c",
+        "email": "Kathlyn.Bashirian@gmail.com",
+        "firstName": "Kirk",
+        "lastName": "Gerhold",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73483363",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "cron_job": [
+      {
+        "id": "75fdba71-319b-464a-b753-c0839f565a25",
+        "task_name": "Backup Database",
+        "task_frequency": "Every 24 hours",
+        "timing": "2023-08-21T09:39:38.978Z",
+        "parameters": "--backup-dir=/path/to/backup",
+        "created_at": "2023-08-20T20:42:29.129Z",
+        "updated_at": "2023-08-20T11:30:36.845Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d6e9cac4-e3fe-44e7-bcb9-5e7bf2f3cc56",
+        "task_name": "Send Daily Report",
+        "task_frequency": "Every Monday at 9 AM",
+        "timing": "2023-08-21T05:31:06.388Z",
+        "parameters": "--email-report=true",
+        "created_at": "2023-08-20T16:04:34.291Z",
+        "updated_at": "2023-08-20T21:05:25.789Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7456120a-042b-41b0-8668-1787dd9c8f23",
+        "task_name": "Process Incoming Orders",
+        "task_frequency": "Every 15 minutes",
+        "timing": "2023-08-21T00:42:12.285Z",
+        "parameters": "--process-all-orders=false",
+        "created_at": "2023-08-21T07:37:51.831Z",
+        "updated_at": "2023-08-21T08:57:19.518Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d3630a17-feef-4c61-b6da-eed9b3d0b630",
+        "task_name": "Update Inventory",
+        "task_frequency": "Every first day of the month",
+        "timing": "2023-08-20T10:30:01.073Z",
+        "parameters": "--update-only-in-stock=true",
+        "created_at": "2023-08-21T01:50:20.370Z",
+        "updated_at": "2023-08-20T16:31:00.635Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8bc2dbf4-38dd-45c1-a003-01a62151e6e9",
+        "task_name": "Generate Monthly Sales Report",
+        "task_frequency": "Every Friday at 5 PM",
+        "timing": "2023-08-20T13:24:04.513Z",
+        "parameters": "--report-type=pdf",
+        "created_at": "2023-08-20T12:24:50.000Z",
+        "updated_at": "2023-08-20T15:12:44.119Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "administrator": [
+      {
+        "id": "f243b174-71f8-4ac5-90b5-8d4f1f7a350d",
+        "username": "admin",
+        "password": "P@ssw0rd",
+        "email": "admin@example.com",
+        "last_login": "2023-08-20T23:29:41.545Z",
+        "created_at": "2023-08-20T17:07:26.099Z",
+        "updated_at": "2023-08-20T18:13:10.193Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "33b3d347-6079-4257-9202-c72837d2a487",
+        "username": "superuser",
+        "password": "SecurePassword123",
+        "email": "superuser@example.com",
+        "last_login": "2023-08-21T06:27:25.111Z",
+        "created_at": "2023-08-20T14:39:36.037Z",
+        "updated_at": "2023-08-20T23:30:14.615Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6af4b6ca-aaf8-4be7-838d-551c5288c2da",
+        "username": "sysadmin",
+        "password": "Admin@123",
+        "email": "sysadmin@example.com",
+        "last_login": "2023-08-20T16:16:36.398Z",
+        "created_at": "2023-08-21T08:12:55.003Z",
+        "updated_at": "2023-08-20T14:17:53.239Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "108f1847-d1de-428e-9e54-5768edca23cf",
+        "username": "root",
+        "password": "RootPassword",
+        "email": "root@example.com",
+        "last_login": "2023-08-20T15:28:43.037Z",
+        "created_at": "2023-08-21T00:37:11.924Z",
+        "updated_at": "2023-08-20T10:34:28.074Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8154b0ae-37b3-4e3d-8f80-78ab4f94957a",
+        "username": "admin123",
+        "password": "Password!123",
+        "email": "admin123@example.com",
+        "last_login": "2023-08-21T01:35:51.240Z",
+        "created_at": "2023-08-21T05:06:24.865Z",
+        "updated_at": "2023-08-20T11:22:13.540Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "887e1369-e0fb-4ca4-84d2-8ec77ddbb2b2",
+        "email": "Tyrique99@yahoo.com",
+        "firstName": "Leopoldo",
+        "lastName": "Sipes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65140881",
+        "tenantId": null
+      },
+      {
+        "reference": "5eebadb5-5ecc-4a07-8cb9-996e2bcba8ba",
+        "email": "Greg.Weissnat@gmail.com",
+        "firstName": "Darlene",
+        "lastName": "Satterfield",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1144.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "507782ba-64b7-4769-a281-04f2c3b3511e",
+        "email": "Kylee.Grimes97@yahoo.com",
+        "firstName": "Deonte",
+        "lastName": "Douglas",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/638.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "afd00105-7584-4cdd-a4ab-1ef6aa3c7ac3",
+        "email": "Otho13@gmail.com",
+        "firstName": "Derek",
+        "lastName": "Bosco",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48815268",
+        "tenantId": null
+      },
+      {
+        "reference": "c0eb5bea-2b99-4242-87c0-1cdb47dae104",
+        "email": "Alessia2@yahoo.com",
+        "firstName": "Jodie",
+        "lastName": "White-Beatty",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90615046",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "cron_job": [
+      {
+        "id": "cf3ae0c1-3cdc-48e1-a485-68193c8cf4b6",
+        "task_name": "Backup Data",
+        "task_frequency": "Daily",
+        "timing": "2023-08-20T15:03:47.158Z",
+        "parameters": "param1=value1",
+        "created_at": "2023-08-20T16:43:24.897Z",
+        "updated_at": "2023-08-20T19:16:51.489Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f215f505-e7b1-47fb-b66e-987a4378291d",
+        "task_name": "Generate Reports",
+        "task_frequency": "Weekly",
+        "timing": "2023-08-21T02:27:09.306Z",
+        "parameters": "param2=value2",
+        "created_at": "2023-08-21T05:45:48.983Z",
+        "updated_at": "2023-08-20T11:37:45.008Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "bfd12471-e84b-401d-8132-0ada9ace0058",
+        "task_name": "Send Email Notifications",
+        "task_frequency": "Monthly",
+        "timing": "2023-08-20T22:24:13.215Z",
+        "parameters": "param3=value3",
+        "created_at": "2023-08-21T07:23:32.711Z",
+        "updated_at": "2023-08-21T08:08:37.337Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0f6306f7-1b31-4743-9d9d-6327fef00b9c",
+        "task_name": "Update Database",
+        "task_frequency": "Quarterly",
+        "timing": "2023-08-20T14:20:35.529Z",
+        "parameters": "param4=value4",
+        "created_at": "2023-08-20T20:25:44.349Z",
+        "updated_at": "2023-08-21T08:09:44.868Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c1b6c465-0418-452c-a334-b3655875abd6",
+        "task_name": "Process Payments",
+        "task_frequency": "Yearly",
+        "timing": "2023-08-20T23:27:12.381Z",
+        "parameters": "param5=value5",
+        "created_at": "2023-08-20T17:34:50.212Z",
+        "updated_at": "2023-08-20T18:20:09.972Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "administrator": [
+      {
+        "id": "a5ae87ac-9d70-4b35-be14-07a8d07a9a01",
+        "username": "admin1",
+        "password": "P@ssw0rd1",
+        "email": "admin1@example.com",
+        "last_login": "2023-08-21T00:10:00.709Z",
+        "created_at": "2023-08-20T15:03:16.259Z",
+        "updated_at": "2023-08-21T07:54:44.493Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4589d54b-98bf-4580-b029-6e882d969502",
+        "username": "admin2",
+        "password": "P@ssw0rd2",
+        "email": "admin2@example.com",
+        "last_login": "2023-08-20T13:51:05.513Z",
+        "created_at": "2023-08-20T23:43:27.221Z",
+        "updated_at": "2023-08-20T11:35:13.259Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b3bc4d99-991b-4c94-a4f9-556be18c08ce",
+        "username": "admin3",
+        "password": "P@ssw0rd3",
+        "email": "admin3@example.com",
+        "last_login": "2023-08-20T18:18:43.071Z",
+        "created_at": "2023-08-20T14:53:06.363Z",
+        "updated_at": "2023-08-20T11:58:21.451Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "eabe66b8-4d4c-4a87-a449-9aa37d296310",
+        "username": "admin4",
+        "password": "P@ssw0rd4",
+        "email": "admin4@example.com",
+        "last_login": "2023-08-21T05:40:00.927Z",
+        "created_at": "2023-08-20T21:33:25.212Z",
+        "updated_at": "2023-08-21T06:43:54.529Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "685cdc64-50be-45ca-8ff1-92f7349b7f67",
+        "username": "admin5",
+        "password": "P@ssw0rd5",
+        "email": "admin5@example.com",
+        "last_login": "2023-08-21T01:32:37.186Z",
+        "created_at": "2023-08-20T15:57:21.577Z",
+        "updated_at": "2023-08-21T07:23:28.312Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ce1724d8-2da9-48cf-a487-4ad949a0d2da",
+        "email": "Delphia_Rohan@gmail.com",
+        "firstName": "Zoey",
+        "lastName": "Deckow",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1125.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d308e35b-ca9d-46dd-b849-9d4e6e46e9dd",
+        "email": "Durward45@hotmail.com",
+        "firstName": "Emmie",
+        "lastName": "Johnston-Kassulke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69494211",
+        "tenantId": null
+      },
+      {
+        "reference": "cffece8c-3954-4ad5-aede-98c444ba706c",
+        "email": "Bart.Reynolds@yahoo.com",
+        "firstName": "Dillan",
+        "lastName": "Mills",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98891994",
+        "tenantId": null
+      },
+      {
+        "reference": "8fce5df6-34c5-4b27-8901-6567fa89926f",
+        "email": "Dee82@yahoo.com",
+        "firstName": "Roberta",
+        "lastName": "Blick",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17673795",
+        "tenantId": null
+      },
+      {
+        "reference": "5fecdfc3-0662-4a6b-a4e3-ad15d771ed31",
+        "email": "Kellen20@yahoo.com",
+        "firstName": "Dameon",
+        "lastName": "Legros",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46011984",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "cron_job": [
+      {
+        "id": "6060c27a-677d-478c-a30c-88f5665d774a",
+        "task_name": "Backup Database",
+        "task_frequency": "Daily",
+        "timing": "2023-08-20T20:56:31.218Z",
+        "parameters": "--exclude=logs",
+        "created_at": "2023-08-21T05:29:15.130Z",
+        "updated_at": "2023-08-20T15:41:32.181Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "84460a20-f374-4e40-bc93-fa90433f9a7a",
+        "task_name": "Generate Reports",
+        "task_frequency": "Weekly",
+        "timing": "2023-08-21T01:46:15.877Z",
+        "parameters": "--format=pdf",
+        "created_at": "2023-08-20T20:50:28.878Z",
+        "updated_at": "2023-08-20T19:06:01.710Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "218f168e-a7c3-42c3-954d-5332be0bc58d",
+        "task_name": "Send Email Notifications",
+        "task_frequency": "Monthly",
+        "timing": "2023-08-20T19:10:38.812Z",
+        "parameters": "--send-to=all",
+        "created_at": "2023-08-21T03:25:08.222Z",
+        "updated_at": "2023-08-21T06:35:21.378Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6f5d6d40-34ec-4c56-a3b9-4acfd5cb3d91",
+        "task_name": "Update User Statistics",
+        "task_frequency": "Quarterly",
+        "timing": "2023-08-21T05:46:14.478Z",
+        "parameters": "--user=admin",
+        "created_at": "2023-08-20T17:15:47.944Z",
+        "updated_at": "2023-08-20T22:00:15.263Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "41fb99bf-132b-43c7-bfb6-84ca622c4588",
+        "task_name": "Clean Temporary Files",
+        "task_frequency": "Yearly",
+        "timing": "2023-08-21T04:08:11.628Z",
+        "parameters": "--clean-all",
+        "created_at": "2023-08-20T17:03:17.807Z",
+        "updated_at": "2023-08-20T17:42:16.428Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "administrator": [
+      {
+        "id": "2dc43b6a-b6ef-4ebf-8dd1-1ed447b661b7",
+        "username": "admin",
+        "password": "P@ssw0rd",
+        "email": "admin@example.com",
+        "last_login": "2023-08-20T15:06:37.832Z",
+        "created_at": "2023-08-21T00:08:23.866Z",
+        "updated_at": "2023-08-21T09:28:38.258Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0ee8f00d-ba46-4bae-9ba1-88e57de81f8c",
+        "username": "superuser",
+        "password": "Secure123",
+        "email": "superuser@example.com",
+        "last_login": "2023-08-20T21:23:35.868Z",
+        "created_at": "2023-08-21T05:44:50.706Z",
+        "updated_at": "2023-08-20T12:40:15.838Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "994e613b-8f1a-4901-816b-12b2d322438c",
+        "username": "sysadmin",
+        "password": "Admin@123",
+        "email": "sysadmin@example.com",
+        "last_login": "2023-08-21T04:56:24.125Z",
+        "created_at": "2023-08-21T02:57:43.095Z",
+        "updated_at": "2023-08-21T06:34:00.716Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3f201dd5-691e-420a-8ff5-b661348f8342",
+        "username": "root",
+        "password": "RootAccess",
+        "email": "root@example.com",
+        "last_login": "2023-08-21T09:05:15.961Z",
+        "created_at": "2023-08-21T04:57:42.833Z",
+        "updated_at": "2023-08-20T17:44:45.965Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a13c6fdc-fc9c-4076-89c7-3aa8942563b2",
+        "username": "manager",
+        "password": "Manager2021",
+        "email": "manager@example.com",
+        "last_login": "2023-08-21T09:26:37.376Z",
+        "created_at": "2023-08-20T19:32:30.304Z",
+        "updated_at": "2023-08-20T17:40:02.341Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0b51c114-12b7-4f80-ad3a-4760cbe84d2c",
+        "email": "Jacky_Frami47@gmail.com",
+        "firstName": "Timothy",
+        "lastName": "Keeling",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60707155",
+        "tenantId": null
+      },
+      {
+        "reference": "1d351c86-1e5f-4f4b-89b1-af6fa9f0ba08",
+        "email": "Elwyn10@yahoo.com",
+        "firstName": "Nya",
+        "lastName": "Armstrong",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/126.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "003beea8-5182-4124-8dfc-bf2575572537",
+        "email": "Hanna.Konopelski14@yahoo.com",
+        "firstName": "Veda",
+        "lastName": "Balistreri",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/486.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ae24c077-bfdf-4511-9a53-bdb8728b61ca",
+        "email": "Nella96@hotmail.com",
+        "firstName": "Terrence",
+        "lastName": "Rippin-Maggio",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/852.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "25491c5d-697e-4d2e-b2ee-40c2844f3632",
+        "email": "Magdalen.Stark36@hotmail.com",
+        "firstName": "Cleora",
+        "lastName": "Carroll",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1064.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "cron_job": [
+      {
+        "id": "9a2c65dc-83f2-419e-95d8-2106fd75680b",
+        "task_name": "Backup Database",
+        "task_frequency": "Daily",
+        "timing": "2023-08-20T19:00:02.059Z",
+        "parameters": "-f /path/to/backup",
+        "created_at": "2023-08-20T11:01:16.630Z",
+        "updated_at": "2023-08-20T12:53:08.407Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e2d70bcf-8e32-4381-a867-7ff20ee104d6",
+        "task_name": "Send Daily Report",
+        "task_frequency": "Weekly",
+        "timing": "2023-08-20T21:35:12.312Z",
+        "parameters": "-r -o report.txt",
+        "created_at": "2023-08-20T10:48:02.617Z",
+        "updated_at": "2023-08-20T18:59:19.480Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e657bbcf-c1b9-4161-8aca-ba88efdb0030",
+        "task_name": "Update Inventory",
+        "task_frequency": "Monthly",
+        "timing": "2023-08-20T22:11:54.084Z",
+        "parameters": "-i inventory.csv",
+        "created_at": "2023-08-21T07:43:48.920Z",
+        "updated_at": "2023-08-21T03:52:12.016Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7becbf6a-055b-4400-97a7-b327177d362c",
+        "task_name": "Generate Monthly Invoices",
+        "task_frequency": "Quarterly",
+        "timing": "2023-08-20T16:44:12.209Z",
+        "parameters": "-m 202108",
+        "created_at": "2023-08-20T11:43:56.543Z",
+        "updated_at": "2023-08-21T02:16:56.906Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "65806ba6-e756-461b-9e81-041d2e213963",
+        "task_name": "Clean Temporary Files",
+        "task_frequency": "Yearly",
+        "timing": "2023-08-21T07:25:53.872Z",
+        "parameters": "-d /temp",
+        "created_at": "2023-08-20T18:47:48.183Z",
+        "updated_at": "2023-08-20T19:05:29.400Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "administrator": [
+      {
+        "id": "22454b33-b107-4c4e-ab00-ee9f119c6334",
+        "username": "admin1",
+        "password": "P@ssw0rd1",
+        "email": "admin1@example.com",
+        "last_login": "2023-08-20T18:44:48.719Z",
+        "created_at": "2023-08-21T09:42:33.681Z",
+        "updated_at": "2023-08-21T06:47:32.462Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1854f258-e3a0-4968-af66-3c8f5c6be8a4",
+        "username": "admin2",
+        "password": "SecurePassword2",
+        "email": "admin2@example.com",
+        "last_login": "2023-08-21T08:07:02.329Z",
+        "created_at": "2023-08-21T00:58:11.141Z",
+        "updated_at": "2023-08-21T00:35:18.841Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2fa47c9e-dffa-47fd-b9bb-17459cf0ecde",
+        "username": "admin3",
+        "password": "StrongP@ss!3",
+        "email": "admin3@example.com",
+        "last_login": "2023-08-20T20:08:47.984Z",
+        "created_at": "2023-08-20T18:24:14.763Z",
+        "updated_at": "2023-08-21T07:06:11.190Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f4b87596-17cb-4810-88a4-3ff0c72b974d",
+        "username": "admin4",
+        "password": "Admin1234",
+        "email": "admin4@example.com",
+        "last_login": "2023-08-21T07:41:10.021Z",
+        "created_at": "2023-08-21T05:45:28.726Z",
+        "updated_at": "2023-08-20T18:26:55.247Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ef9441a8-e865-4282-ae08-f94a3fd35bf5",
+        "username": "admin5",
+        "password": "Password123!",
+        "email": "admin5@example.com",
+        "last_login": "2023-08-21T10:17:10.762Z",
+        "created_at": "2023-08-20T16:37:14.278Z",
+        "updated_at": "2023-08-20T18:16:44.438Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "be5770a2-495e-40c1-b675-e2e90519673f",
+        "email": "Fritz_Koss99@hotmail.com",
+        "firstName": "Marlene",
+        "lastName": "Mann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/953.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5f778660-4342-4978-ade3-82bc26cfd05b",
+        "email": "Garett.Stoltenberg@hotmail.com",
+        "firstName": "Kieran",
+        "lastName": "Boehm",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8380195",
+        "tenantId": null
+      },
+      {
+        "reference": "39188879-0f11-48dd-8773-39ada3da084a",
+        "email": "Sedrick38@yahoo.com",
+        "firstName": "Brice",
+        "lastName": "Hartmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/34.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "765a69f8-bc8d-4431-bc94-76aefa0f9a10",
+        "email": "Jess.Mraz@gmail.com",
+        "firstName": "Viviane",
+        "lastName": "Mraz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/99227932",
+        "tenantId": null
+      },
+      {
+        "reference": "078330f9-13a4-4a03-ab25-e6db13185292",
+        "email": "Arielle.Stokes@hotmail.com",
+        "firstName": "Amalia",
+        "lastName": "Mante",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57530367",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "cron_job": [
+      {
+        "id": "a595754b-9ad4-4a30-848d-576b4a0e9550",
+        "task_name": "Backup Database",
+        "task_frequency": "Daily",
+        "timing": "2023-08-20T21:10:54.099Z",
+        "parameters": "-d /backup -t full",
+        "created_at": "2023-08-20T12:16:34.403Z",
+        "updated_at": "2023-08-20T22:39:23.158Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2ce963c5-a157-4760-8ae1-26915a9e3976",
+        "task_name": "Generate Reports",
+        "task_frequency": "Weekly",
+        "timing": "2023-08-20T14:44:18.932Z",
+        "parameters": "-r -f report.pdf",
+        "created_at": "2023-08-21T04:47:52.009Z",
+        "updated_at": "2023-08-20T17:05:25.520Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "13f23496-abb8-43f1-a7c3-452462e3d163",
+        "task_name": "Send Email Notifications",
+        "task_frequency": "Monthly",
+        "timing": "2023-08-21T04:00:33.821Z",
+        "parameters": "-t important -m all",
+        "created_at": "2023-08-21T06:40:06.128Z",
+        "updated_at": "2023-08-21T01:16:08.329Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fe54539d-d38c-4347-a16d-afa3c923c0ca",
+        "task_name": "Update Inventory",
+        "task_frequency": "Quarterly",
+        "timing": "2023-08-20T14:28:57.799Z",
+        "parameters": "-p product_id=12345",
+        "created_at": "2023-08-20T13:11:11.739Z",
+        "updated_at": "2023-08-21T04:19:32.981Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e8ade43b-4cf7-4b57-aa64-7f336a274a48",
+        "task_name": "Cleanup Temporary Files",
+        "task_frequency": "Yearly",
+        "timing": "2023-08-20T11:23:27.426Z",
+        "parameters": "-d /temp -r",
+        "created_at": "2023-08-21T08:07:09.723Z",
+        "updated_at": "2023-08-20T19:33:56.272Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "administrator": [
+      {
+        "id": "79ff56d4-57c1-4ae5-8906-ce0619774769",
+        "username": "admin",
+        "password": "P@ssw0rd!",
+        "email": "admin@example.com",
+        "last_login": "2023-08-21T03:23:22.719Z",
+        "created_at": "2023-08-21T00:21:29.874Z",
+        "updated_at": "2023-08-21T08:00:43.098Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2f2ba1cc-7550-43f2-90b1-89e6107fd04f",
+        "username": "superuser",
+        "password": "Secure123",
+        "email": "superuser@example.com",
+        "last_login": "2023-08-21T01:50:05.023Z",
+        "created_at": "2023-08-21T10:02:43.360Z",
+        "updated_at": "2023-08-20T16:00:29.146Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ae7fab40-162d-45a2-9e89-a520ffe9dfe8",
+        "username": "sysadmin",
+        "password": "Admin@123",
+        "email": "sysadmin@example.com",
+        "last_login": "2023-08-21T04:02:42.550Z",
+        "created_at": "2023-08-21T08:39:53.216Z",
+        "updated_at": "2023-08-21T03:39:33.554Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e82242a2-b0f5-4e5d-8240-9a146e251dd4",
+        "username": "root",
+        "password": "Password123",
+        "email": "root@example.com",
+        "last_login": "2023-08-21T10:10:50.075Z",
+        "created_at": "2023-08-20T14:55:14.646Z",
+        "updated_at": "2023-08-21T00:55:19.688Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fd6084f2-67a0-487d-8560-f82f2041d87f",
+        "username": "manager",
+        "password": "SecretPass",
+        "email": "manager@example.com",
+        "last_login": "2023-08-21T08:33:33.647Z",
+        "created_at": "2023-08-21T06:10:39.930Z",
+        "updated_at": "2023-08-21T05:31:18.501Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e36d4b0d-f13b-4d42-97c8-e56f6e917554",
+        "email": "Spencer88@yahoo.com",
+        "firstName": "Aiyana",
+        "lastName": "Kilback",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11752298",
+        "tenantId": null
+      },
+      {
+        "reference": "f3bbd645-2a70-4893-9dca-783073fec009",
+        "email": "Noe_Schinner@hotmail.com",
+        "firstName": "Gudrun",
+        "lastName": "Glover",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8253382",
+        "tenantId": null
+      },
+      {
+        "reference": "bf0f5044-3670-4e6b-88c5-119fd52c7ac0",
+        "email": "Loyal.Bergstrom@gmail.com",
+        "firstName": "Caterina",
+        "lastName": "O'Kon",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47270974",
+        "tenantId": null
+      },
+      {
+        "reference": "e9406c0b-3f47-489e-9515-c97020e8ea1f",
+        "email": "Keshaun_Kris-Bayer67@hotmail.com",
+        "firstName": "Walker",
+        "lastName": "Abernathy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/918.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c279c3e5-196b-4bed-9981-256bf5d62141",
+        "email": "Kristofer_Bartell38@hotmail.com",
+        "firstName": "Rylan",
+        "lastName": "Kohler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34553100",
+        "tenantId": null
+      }
+    ]
+  }
+]
